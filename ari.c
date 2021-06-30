@@ -1,4 +1,5 @@
 /* ari function*/
+#include<cs50.h>
 string ari ( string s ){
 float chr=0;
 float wrd=0;
