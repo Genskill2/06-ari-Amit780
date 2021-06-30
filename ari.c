@@ -6,16 +6,16 @@ float sen =0;
 int ari;
 float fr1, fr2;
 for( int i=0; s[i]!= '\0'; i++){
-if((s[i] >= 48 && s[i]<=57) || (s[i]>=65 && s[i] <=90) || (s[i]>=97 && s[i]<=122)){
-chr = chr+1;}
-if(s[i] == ' '){
-wrd = wrd+1;}
-if(s[i] == '.' || s[i] =='!' || s[i] == '?'){
-sen = sen +1;}
+if(isalnum(s[i]))
+chr = chr + 1;
+if(s[i] == ' ')
+wrd = wrd + 1;
+if(s[i] == '.' || s[i] =='!' || s[i] == '?')
+sen = sen + 1;
 }
   fr1 = chr/wrd;
   fr2= wrd/sen;
-ari = (int)ceil(4.71*(fr1) + 0.5*(fr2) - 21.43);
+ari = ceil(4.71*(fr1) + 0.5*(fr2) - 21.43);
 if(ari == 1)
 return "Kindergarten";
 else if(ari == 2)
