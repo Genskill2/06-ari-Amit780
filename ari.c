@@ -1,5 +1,9 @@
 /* ari function*/
+#include <stdio.h>
+#include <assert.h>
+#include <string.h>
 #include <cs50.h>
+
 string ari(string s){
 float chr=0;
 float wrd=0;
