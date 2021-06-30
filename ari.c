@@ -12,7 +12,7 @@ wrd = wrd+1;}
 if(s[i] == '.' || s[i] =='!' || s[i] == '?'){
 sen = sen +1;}
 }
-ari = ceil(4.71*(chr/wrd) + 0.5*(wrd/sen));
+ari = ceil(4.71*(chr/wrd) + 0.5*(wrd/sen) - 21.43);
 if(ari == 1)
 return "Kindergarten";
 else if(ari == 2)
