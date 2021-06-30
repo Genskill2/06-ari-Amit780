@@ -1,5 +1,5 @@
 /* ari function*/
-string ari(string s){
+string ari ( string s ){
 float chr=0;
 float wrd=0;
 float sen =0;
