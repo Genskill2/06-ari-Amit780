@@ -1,3 +1,4 @@
+/* ari function*/
 string ari(string s){
 float chr=0;
 float wrd=0;
